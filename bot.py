@@ -31,7 +31,7 @@ def get_next_order_id():
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Salom! Buyurtma berish format: Pozivnoy, Mashina, Telefon, Summa\n"
-        "Masalan:\nAlpha, 01A123AA, +998901234567, 15000"
+        "Masalan:\n1234, 01A123AA, +998901234567, 15000"
     )
 
 # /stats
