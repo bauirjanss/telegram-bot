@@ -31,7 +31,7 @@ def get_next_order_id():
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Format:\nPozivnoy, Mashina, Telefon, Summa\n\n"
-        "Misol:\nAlpha, 01A123AA, +998901234567, 15000"
+        "Misol:\n1234, 01A123AA, +998901234567, 15000"
     )
 
 # --------- ASOSIY LOGIKA ---------
