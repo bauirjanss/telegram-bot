@@ -11,7 +11,7 @@ CSV_FILE = "buyurtmalar.csv"
 
 CARD = "8600 1234 5678 9999"
 NAME = "AZAMAT"
-USLUGA = 5000
+USLUGA = 3000
 # -----------------------------
 
 def save_order(order_id, pozivnoy, user_info, car, phone, amount, status):
